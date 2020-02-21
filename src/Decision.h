@@ -5,9 +5,9 @@ namespace texasHolderPoker
 
 enum class DecisionKind
 {
-    Fold,
-    Call,
-    Raise,
+    Fold, //pass
+    Call, //sprawdzic i wyrownac stawke
+    Raise, //podbicie
 };
 
 struct Decision

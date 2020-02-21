@@ -13,7 +13,7 @@ class IGameView
 {
 public:
     virtual void onPlayerDecision(const Decision& decision) = 0;
-    virtual void onCardsShow(const std::vector<Card> showCards) = 0;
+    virtual void onCardsShow(const std::vector<Card>& showCards) = 0;
 
     virtual void onGameStart(const GameSettings& gameSettings) = 0;
     virtual void onGameEnd(int winningPlayer) = 0;
